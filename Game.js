@@ -84,7 +84,7 @@ class Game {
     }
 }
 
-window.addEventListener("load", () => {
-    loading.style.display = "none";
-    const g = new Game();
-});
+const g = new Game();
+// window.addEventListener("load", () => {
+//     loading.style.display = "none";
+// });
